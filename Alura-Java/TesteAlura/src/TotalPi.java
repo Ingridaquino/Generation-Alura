@@ -30,5 +30,6 @@ public class TotalPi {
         System.out.println("O valor da peça com o IPI é: " + totalOne);
         System.out.println("O valor da peça com o IPI é: " + totalTwo);
 
+        s.close();
     }
 }

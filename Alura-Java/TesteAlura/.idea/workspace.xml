@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="271401f4-c425-42bb-b255-e27a54fe8374" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/Generation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stars/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TesteAlura/IdadePessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TesteAlura/IdadePessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TesteAlura/LeiaSalario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TesteAlura/LeiaSalario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TesteAlura/NumeroInteiro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TesteAlura/NumeroInteiro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TesteAlura/TemperaturaGraus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TesteAlura/TemperaturaGraus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TesteAlura/TotalPi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TesteAlura/TotalPi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TesteAlura/saldo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TesteAlura/saldo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConjutoDeDados.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConjutoDeDados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IdadePessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IdadePessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeiaSalario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeiaSalario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumeroInteiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumeroInteiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemperaturaGraus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TemperaturaGraus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TotalPi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TotalPi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/saldo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/saldo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="29wSUkUtfaB0mzxMdC1iY0dP8mr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Array-k" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ConjutoDeDados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConjutoDeDados" />
+      <module name="TesteAlura" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stars.Main" />
+      <module name="TesteAlura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaStar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestaStar" />
+      <module name="TesteAlura" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestaStar" />
+        <item itemvalue="Application.ConjutoDeDados" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="271401f4-c425-42bb-b255-e27a54fe8374" name="Changes" comment="" />
+      <created>1654022674136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654022674136</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stars/Main.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stars/Main.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

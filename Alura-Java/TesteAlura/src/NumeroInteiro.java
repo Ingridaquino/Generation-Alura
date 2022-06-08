@@ -15,7 +15,7 @@ public class NumeroInteiro {
 
 
 
-
+        ler.close();
 
     }
 }

@@ -16,5 +16,7 @@ public class LeiaSalario {
         System.out.format("%.0f",quanti);
         System.out.println(" de salários mínimos ");
 
+        entrada.close();
+
     }
 }

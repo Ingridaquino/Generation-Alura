@@ -30,5 +30,8 @@ public class IdadePessoa {
 
         System.out.println("O total de dias é = " + totalDias);
 
+        entrada.close();
+
     }
+
 }

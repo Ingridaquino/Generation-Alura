@@ -17,6 +17,6 @@ public class TemperaturaGraus {
         System.out.println("A temperatura em Reaumur é: " + ra);
         System.out.println("A temperatura em Rankine é: " + re);
 
-
+        ler.close();
     }
 }

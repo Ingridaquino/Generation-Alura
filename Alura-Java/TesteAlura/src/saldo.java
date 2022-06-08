@@ -14,6 +14,7 @@ public class saldo {
 
         System.out.println("Seu saldo teve um reajuste de 1%, o valor atual é: " + reaTotal);
 
+        entrada.close();
 
 
     }
