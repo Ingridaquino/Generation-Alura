@@ -33,6 +33,9 @@ Exclui o recurso especificado.
 entre eles?
 São o GET e o POST, um envia os dados na URL e o outro, os dados não ficam expostos na URL.
 
+GET e POST. A diferença é que o método Post oferece uma maior segurança em relação aos dados transferidos, 
+ao contrário do método GET que os dados são anexados a URL, ficando visíveis ao usuário.
+
 4) O que são requisições HTTP? Quais os tipos?
 Cada requisição HTTP pode usar um dos muitos métodos de requisição existente, 
 a versão HTTP/1.1 suporta sete tipos de requisição: GET, POST, HEAD, OPTIONS, PUT, 
@@ -58,13 +61,15 @@ Há várias maneiras de fazer requisições HTTP do front end para o back end
 usando REST. Os verbos são: Get, Put, Post, Patch, Delete sendo que 
 alguns podem receber parâmetros na URL ou não
 
+
 9) Qual a diferença entre IPv4 e IPv6?
 O Protocolo de Internet versão 4 possui endereços no padrão 32 bits e sustenta cerca de 4 bilhões de
 combinações de endereços IP em todo o mundo. Já o IPv6 é a versão 6 do Protocolo de Internet, 
 com endereços no padrão 128 bits, permitindo, portanto, cerca de 340 undecilhões de endereços.
 
-10) Faça um resumo sobre os seguintes protocolos: http, tcp, ip, udp, smtp e ftp.
 
+
+10) Faça um resumo sobre os seguintes protocolos: http, tcp, ip, udp, smtp e ftp.
 Http é um protocolo de transferência que possibilita que as 
 pessoas inserem a URL (endereço do site), que possam ver os contéudos da página acessada. 
 Os TCP são os peões que entregam os dados (datagramas) provenientes do protocolo IP. 
