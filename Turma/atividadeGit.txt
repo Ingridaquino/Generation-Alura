@@ -1,1 +1,78 @@
-Aula sobre git dia 28/06
+Exercícios sobre Métodos HTTP
+
+1) O que são métodos HTTP?
+HTTP é um protocolo baseado em streams de texto. 
+Muito resumidamente, o cliente abre um socket para falar com 
+o servidor e, nesse socket, envia requisições (requests), 
+as quais o servidor responderá com respostas (responses).
+
+O texto da requisição HTTP tem, basicamente, três partes: 
+request line, headers e body. Esse texto é lido linha a linha, 
+sendo que cada linha é separada por CR+LF 
+(carriage return + line feed). (line feed = newline = ‘\n’).
+
+2) Quais são os métodos HTTP mais utilizados atualmente?
+GET
+Essa é a requisição mais comum de todas. Através dessa requisição nós pedimos a representação de um recurso: que pode ser um arquivo html, xml, json, etc.
+Um exemlo de requisição GET seria:
+
+GET /entendendo-o-net-core-parte-3-o-coreclr/ HTTP/1.1  
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)  
+Host: http://gabsferreira.com  
+Connection: Keep-Alive  
+POST
+O método POST é utilizado quando queremos criar um recurso. Quando usamos POST, os dados vão no corpo da requisição e não na URI.
+
+PUT
+Requisita que um recurso seja "guardado" na URI fornecida. Se o recurso já existir, ele deve ser atualizado. Se não existir, pode ser criado.
+
+DELETE
+Exclui o recurso especificado.
+
+3) Quais são os 2 principais métodos do HTTP? Qual é a diferença 
+entre eles?
+São o GET e o POST, um envia os dados na URL e o outro, os dados não ficam expostos na URL.
+
+4) O que são requisições HTTP? Quais os tipos?
+Cada requisição HTTP pode usar um dos muitos métodos de requisição existente, 
+a versão HTTP/1.1 suporta sete tipos de requisição: GET, POST, HEAD, OPTIONS, PUT, 
+DELETE e TRACE. GET e POST são os mais usados em aplicações na internet.
+
+5) Como funciona uma requisição?
+É um pedido do cliente para servidor e nesse pedido deve conter requisições 
+para que o servidor consiga responder de acordo. Um texto de requisições HTTP tem três partes: 
+request line, header e body.
+
+6) O que é o método GET?
+É o método que solicita a representação de um recurso específico. 
+Essas requisições devem retornar apenas dados.
+
+7) Qual é o protocolo de internet para transferência segura, com uso de certificado digital, 
+utilizado em sites de compras eletrônicas?
+HTTPS é um protocolo que é usado para a comunicação segura através de redes de computadores. 
+A transferência segura de dados pela Internet é essencial para todas as empresas evitarem interceptações 
+telefônicas e ataques de intermediários.
+
+8) Quais os principais métodos de uma requisição REST?
+Há várias maneiras de fazer requisições HTTP do front end para o back end 
+usando REST. Os verbos são: Get, Put, Post, Patch, Delete sendo que 
+alguns podem receber parâmetros na URL ou não
+
+9) Qual a diferença entre IPv4 e IPv6?
+O Protocolo de Internet versão 4 possui endereços no padrão 32 bits e sustenta cerca de 4 bilhões de
+combinações de endereços IP em todo o mundo. Já o IPv6 é a versão 6 do Protocolo de Internet, 
+com endereços no padrão 128 bits, permitindo, portanto, cerca de 340 undecilhões de endereços.
+
+10) Faça um resumo sobre os seguintes protocolos: http, tcp, ip, udp, smtp e ftp.
+
+Http é um protocolo de transferência que possibilita que as 
+pessoas inserem a URL (endereço do site), que possam ver os contéudos da página acessada. 
+Os TCP são os peões que entregam os dados (datagramas) provenientes do protocolo IP. 
+IP é a identidade do computador, sendo assim, cada computador tem seu IP.
+UDP é um protocolo que, pode-se enviar dados de uma máquina à outra, mas sem 
+garantia de que os dados enviados chegarão intactos e na ordem correta.
+SMTP é um protocolo de transferência que permite que e-mails sejam enviados de um
+servidor para outro até serem entregues na caixa de correio.
+FTP é uma camada extra de segurança SSL. As informações trafegadas entre os dois 
+canais ( o seu computador e o servidor) não possuemum recurso de segurança que cuide exclusivamente dessa transmissão. 
+No FTPS os dados são criptografados usando a tecnologia SSL (Secure Socket Layer)
