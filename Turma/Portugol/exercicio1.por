@@ -6,23 +6,23 @@ programa
 
 		//Exercicio 1
 	{
-		inteiro idade, anos, mes
-		real dias
+		inteiro idade, mes, dias, calc
 
 		escreva("Digite sua idade: ")
 		leia(idade)
-		limpa()
-
 		
-		escreva("Digite sua idade em meses: ")
+		escreva("Quantos meses: ")
 		leia(mes)
-		limpa()
 
-		escreva("Digite sua idade em dias: ")
+		escreva("Quantos dias: ")
 		leia(dias)
 		limpa()
 
-		escreva("O total de dias é: " + dias)
+		calc = (idade * 365) + (mes * 30) + dias
+
+		
+
+		escreva("O total de dias é: " + calc)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 79; 
+ * @POSICAO-CURSOR = 343; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
