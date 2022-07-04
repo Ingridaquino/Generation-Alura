@@ -2,17 +2,22 @@ programa
 {
 	
 	funcao inicio()
-	{
-		inteiro total = 0
+	{	
+		//Vetor
+		real notas[5]
+		real maior = 0
 
-		para(inteiro x = 0; x <= 500; x++) {
-			se(x % 3 == 0 e x % 2 == 1 ) {
-				total = total + x
+		para(inteiro i = 0; i <= 4; i++) {
+			escreva("\n Informe a nota", i, ": ")
+			leia(notas[i])
+
+			se(maior <= notas[i]){
+				maior = notas[i]
 			}
-
-			
 		}
-			escreva(" O números impares são: ", total)
+
+		escreva("\nMaior nota é: ", maior)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 122; 
+ * @POSICAO-CURSOR = 276; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

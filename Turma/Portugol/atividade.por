@@ -3,16 +3,20 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro total = 0
+		inteiro notas[3][3] = {{10, 20, 30}, 
+							{1, 2, 5},
+							{5, 6, 4}}
 
-		para(inteiro x = 0; x <= 500; x++) {
-			se(x % 3 == 0 e x % 2 == 1 ) {
-				total = total + x
+	//antes de ir para próxima linhas, primeiro precisa percorrer todas as colunas da primeira linha.
+
+		para(inteiro l = 0; l <= 2; l++){ // Linhas[0]
+			para(inteiro c = 0; c <= 2; c++){// Colunas[0]	
+				escreva(notas[l][c], "|")
 			}
 
-			
+			escreva("\n")
 		}
-			escreva(" O números impares são: ", total)
+
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 122; 
+ * @POSICAO-CURSOR = 243; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
