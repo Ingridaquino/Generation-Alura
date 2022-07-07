@@ -22,11 +22,10 @@ programa
 		para(inteiro c = 0; c <= 3; c++){		
 
 		M1[i][c] = N1[i][c] + N2[i][c]
-		M2[i][c] = N1[i][c] + N2[i][c]
+		M2[i][c] = N1[i][c] - N2[i][c]
 
-			
-		escreva("\n ", M1[i][i])
-		escreva("\n ", M2[i][c])
+			escreva(" | ", M1[i][i], "\n")
+			escreva(" | ", M2[i][c])
 		}
 
 	}							
@@ -39,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 459; 
+ * @POSICAO-CURSOR = 485; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
