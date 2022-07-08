@@ -38,7 +38,7 @@ public class SwitchCase01 {
                 System.out.println("Resultado: " + resultado);
                 break;
 
-            case '*':
+            case '*', 'x':
                 resultado = num1 * num2;
                 System.out.println("Resultado: " + resultado);
                 break;
