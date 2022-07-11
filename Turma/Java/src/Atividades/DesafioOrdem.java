@@ -57,7 +57,7 @@ public class DesafioOrdem {
             System.out.println("\nOrdem Crescente: ");
             System.out.println(Arrays.toString(nums) + "\n");
 
-        }while (a != 0 || b != 0 || c != 0 );
+        }while (a == 0 || b == 0 ^ c == 0 );
 
 
     }
