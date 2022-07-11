@@ -38,14 +38,18 @@ public class While02 {
             if(idade < 18){
                 calma += 1;
             }
-        } else if(opcao == 2){
+        }
+        
+        if(opcao == 2){
             if(sexo == 1){
                 totalNer += 1;
             }
             if (idade >= 40) {
                 pessoa += 1;
             }
-        } else if(opcao == 3){
+        }
+
+        if(opcao == 3){
             if(sexo == 2){
                 totalAgre += 1;
             }
