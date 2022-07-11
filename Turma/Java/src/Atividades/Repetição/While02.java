@@ -5,9 +5,7 @@ import java.util.Scanner;
 public class While02 {
     public static void main(String[] args) {
          System.out.println(" --- Características psicológicas ---");
-
-         pessoas();
-
+             pessoas();
     }
 
     public static void pessoas() {

@@ -17,6 +17,11 @@ public class While01 {
             System.out.println("Digite sua idade: ");
             idade = entrada.nextInt();
 
+
+            if(idade == -99){
+                break;
+            }
+
             i++;
 
             if(idade < 21){
@@ -25,13 +30,9 @@ public class While01 {
                 maior += 1;
             }
 
-            if(idade == 99){
-                break;
-            }
-
-            System.out.println("Pessoas com menos de 21 anos: " + menor);
-            System.out.println( "Pessoas com mais de 50 anos: " + maior);
         }
+                System.out.println("Pessoas com menos de 21 anos: " + menor);
+                System.out.println( "Pessoas com mais de 50 anos: " + maior);
 
         System.out.println("Fim do programa...");
     }
