@@ -8,37 +8,37 @@ public class vetor2 {
         lancamento();
     }
 
+
     public static void lancamento(){
 
-        Random sorteio = new Random();
-        Integer[] dado = new Integer[10];
-        Integer[] ocorrencias = {0, 0, 0, 0, 0,0};
-        double media = 0.0;
-        int soma = 0, maior = -1;
 
-        for(int i = 0; i <= dado.length; i++){
-            dado[i] = sorteio.nextInt() % 6;
-            ocorrencias[dado[i] -1]++;
-            soma+=dado[i];
+            // Um dado é lançado 10 vezes e o valor correspondente é anotado. Faça um programa
+            //que gere um vetor com os lançamentos, escreva esse vetor. A seguir determine e
+            //imprima a média aritmética dos lançamentos, contabilize e apresente também
+            //quantas foram as ocorrências da maior pontuação.
 
-            for(int x = 0; x < i; x++ ){
-                System.out.println(dado[i] + "\n");
-            }
+            Random gerador = new Random();
+            int lancamentos[] = new int[10];
+            int maior = 0;
+            int qtdMaior = 0;
+            float media = 0.f;
 
-            for(int j = 0; j < i; j++){
-                if (dado[i] > maior){
-                    maior = dado[i];
+            for (int i = 0; i < lancamentos.length; i++) {
+                lancamentos[i] = gerador.nextInt(1, 7);
+                if (maior < lancamentos[i]){
+                    maior = lancamentos[i];
+                    qtdMaior = 1;
+                }else if (maior == lancamentos[i]){
+                    qtdMaior++;
                 }
+                media += lancamentos[i];
             }
+            for (int i = 0; i < lancamentos.length; i++) {
+                System.out.print(lancamentos[i] + " | ");
+            }
+            System.out.println("Maior: " + maior);
+            System.out.println("Maior Qtd: " + qtdMaior);
+            System.out.println("Media: " + (media / lancamentos.length));
 
-
-            System.out.println("\nMaior: " + maior);
-            System.out.println("\nOcorrencias: " + ocorrencias[maior - 1] + " vezes");
         }
-
-
-        System.out.println("\nMédia" + media / 5);
-        System.out.println("\nQuantidade: " + maior);
-
     }
-}
