@@ -40,6 +40,7 @@ public class ClassCliente {
 
     //Método
     public static void cadastrado(){
+
         System.out.println("Cadastrado...");
     }
 

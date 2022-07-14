@@ -1,7 +1,11 @@
 package FrontEnd;
 
 public class FrontEnd {
+    private String titulo;
     private String text;
+    private String list;
+
+
 
     public  void FrontText() {
 

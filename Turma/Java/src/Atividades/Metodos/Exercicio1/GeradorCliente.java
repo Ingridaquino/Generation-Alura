@@ -1,5 +1,7 @@
 package Atividades.Metodos.Exercicio1;
 
+import Atividades.Metodos.Exercicio1.ClassCliente;
+
 public class GeradorCliente {
 
     public static void main(String[] args) {
