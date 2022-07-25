@@ -5,7 +5,7 @@ import Atividades.Collections.Models.Produto;
 import java.util.ArrayList;
 import java.util.List;
 
-public class App<produto> {
+public class App {
 
     public static void main(String[] args) {
 
@@ -13,7 +13,7 @@ public class App<produto> {
         Produto produto = new Produto();
 
         //Lista de usuários
-        List<Produto> produtos = new ArrayList<>();
+        ArrayList<Produto> produtos = new ArrayList<>();
 
         produtos.add(new Produto("Geladeira", "Eletrolux"));
         produtos.add(new Produto("Fogão", "Consul"));
@@ -24,7 +24,7 @@ public class App<produto> {
             System.out.println(item.getProduto());
             System.out.println(item.getMarca());
 
-            System.out.println();
+            System.out.println("-----------------------------------");
         }
 
         //Remover
@@ -48,7 +48,7 @@ public class App<produto> {
                 item.setMarca("Samsung");
             }
 
-            System.out.println(item.getProduto() + "\n");
+            System.out.println(item.getProduto());
             System.out.println(item.getMarca() + "\n");
         }
 

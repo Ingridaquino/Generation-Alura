@@ -32,4 +32,5 @@ public class Produto {
     public void setMarca(String marca) {
         this.marca = marca;
     }
+
 }

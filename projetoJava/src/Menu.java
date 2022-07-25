@@ -7,16 +7,15 @@ public class Menu {
     public static void main(String[] args) {
               Menu();
 
-
     }
 
 
-    public static void Menu(){
+    public static void Menu() {
 
         FrontEnd front = new FrontEnd();
 //        BackEnd back = new back();
 
-         SoftSkill soft = new SoftSkill();
+        SoftSkill soft = new SoftSkill();
 
         Scanner entrada = new Scanner(System.in);
         int opcao;
@@ -32,17 +31,20 @@ public class Menu {
         System.out.println("Digite: ");
         opcao = entrada.nextInt();
 
-        if(opcao == 1){
-            front.FrontText();
-        } else if (opcao == 2){
-//            back.BackendText();
-        } else if (opcao == 3){
 
-        } else if (opcao == 4){
-            soft.SkillText();
+                if (opcao == 1) {
+                    front.FrontText();
+                } else if (opcao == 2) {
+    //            back.BackendText();
+                } else if (opcao == 3) {
 
-        }
+                } else if (opcao == 4) {
+                    soft.SkillText();
+                } else if (opcao == 0){
+                    //volta pro menu principal
+                }
 
+        entrada.close();
     }
 
 

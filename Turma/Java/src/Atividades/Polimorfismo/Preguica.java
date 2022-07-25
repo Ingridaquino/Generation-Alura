@@ -4,7 +4,7 @@ public class Preguica extends Animal{
 
     @Override
     public void correr() {
-        
+
     }
 
     @Override
