@@ -29,4 +29,8 @@ INSERT INTO td_estudante (nome, idade, professor, nota) VALUES ('Cauã', 10, 'Lu
 INSERT INTO td_estudante (nome, idade, professor, nota) VALUES ('Pietro', 13, 'Camilis', 9.8);
 INSERT INTO td_estudante (nome, idade, professor, nota) VALUES ('Yasmin', 8, 'Rafaela', 8.9);
 
+SELECT * FROM tb_estudante WHERE nota > 7.0;
+SELECT * FROM tb_estudante WHERE nota < 7.0;
 
+
+UPDATE tb_estudante SET nota = 10 WHERE id = 3;
